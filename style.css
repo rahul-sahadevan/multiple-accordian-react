@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.major-div{
+    background-color: #8EC5FC;
+   background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    margin: auto;
+    padding: 20px;
+    width: 40%;
+
+}
+
+.open-all{
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #EA4C89;
+    color:#FFFFFF ;
+    width: 100%;
+}
+.accordian-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.accord{
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 8px;
+    border-radius: 5px;
+}
+span{
+    color: red;
+    text-align: justify;
+}
+.open-btn{
+    background-color: #EA4C89;
+    border: none;
+    padding: 5px;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    align-self: last baseline;
+}
+.close-div{
+    bbackground-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+}
+.close-div button{
+    width: 40%;
+
+}
+
+.heading{
+    text-align: center;
+    margin: 20px;
+}
